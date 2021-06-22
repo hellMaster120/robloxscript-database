@@ -1,1 +1,1 @@
-web: gunicorn database.py:app
+web: gunicorn database:app
